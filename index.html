@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<canvas class="snow"></canvas>
+<div style="margin: 0 auto;">
+<div class="window" style="position:relative; margin: 15px;">
+    <div class="title-bar" style="background:linear-gradient(90deg,#30473b,#95b7a5);">
+        <div class="title-bar-text">Mail</div>
+        <div class="title-bar-controls">
+            <!--<button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>-->
+            <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class="window-body">
+        <div style="display: flex; flex-direction: row; padding-bottom:20px; justify-content: space-between;">
+            <div>
+            <div class="field-row-stacked" style="width: 200px">
+                <label for="text22">FROM:</label>
+                <input id="text22" type="email" value="3301@tum.de"/>
+            </div>
+            <div class="field-row-stacked" style="width: 200px">
+                <label for="text23">CC:</label>
+                <input id="text23" type="email" value="3301.XmasOffices@gmail.com"/>
+            </div>
+            </div>
+            <div style="display:flex; justify-content: flex-end; align-items: flex-end;">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+        <ul class="tree-view">
+            <li><p>Hi there,<br><br>
+
+                Thanks for your help, that code worked! <br>The "QRB" is a place Santa often talked about, so many beautiful machines, located in the heart of Baden-Württemberg (https://qeb.app/).<br> How about we go on a <strong>small trip</strong> there, we can definitely take my sled with 8 RP!<br><br>
+                But damn... I talked to Rudolf and he said there are currently 3 reindeers on vacay, but in emergency situations like that we can count on them.<br>
+                So let’s find them! thanks to this new tracking technology <strong>Reindeer Frequency Identification (RFID)</strong>, we should have no problem tracking there movements.<br>
+                The RFID chip printed out the following logs, maybe it could be helpful..
+                <br><br>
+
+                <strong>Rock - Reindeer #4</strong><br><br>
+                你好中国!<br>
+                柴油机:18%<br>
+                地图位置: 西安市, 湖北, 湖南, 贵阳市, 重庆, 西安市 <br><br>
+                <strong>Ember - Reindeer #6</strong><br><br>
+                This reindeer was staying in quite local (U U U U U)<br>
+                Fuel:82%<br>
+                MapLocation:Theresienstraße, Scheidplatz, Universität, Max-Weber-Platz, Ostbahnhof<br><br>
+
+                <strong>Tornado - Reindeer #2</strong><br><br>
+                This reindeer was quite active.<br>
+                Fuel:21%<br>
+                MapTracking: Dortmund, Bielefeld, Hannover, Magdeburg, Leipzig, Mannheim, Nürnberg<br><br>
+                Don't forget, the song September is written by ... ;)
+                <br>    <br>
+                <div class="field-row">
+                    <label for="text17">CODE</label>
+                    <input id="text17" type="text" />
+                <button style="padding-left:10px;" onclick="onSubmit()">Submit</button>
+                </div>
+                <br>
+                In case you got any questions, feel free to reach me under <br>3301.XmasOffices@gmail.com or call me (maybe).
+                <br><br>
+                Cheers,<br>
+                3301
+            </p></li>
+        </ul>
+    </div>
+</div>
+<!-- fork https://codepen.io/AlbertFeynman/pen/RBBKMe -->
+
+</body>
+<script src="script.js"></script>
+</html>
